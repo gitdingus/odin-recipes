@@ -1,0 +1,1 @@
+This is a basic recipe website created to demonstrate some skills I am learning in The Odin Project. It will consist of a man page and a few links to recipes.
