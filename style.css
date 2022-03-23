@@ -1,0 +1,37 @@
+body{
+    background-color: lightgreen;
+}
+
+.page-title {
+    background-color: darkkhaki;
+    color: brown;
+    font-family:  "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    width: 300px;
+    margin: 0px;
+    border: solid black 3px;
+    border-bottom: none;
+    text-align: center;
+    
+}
+
+.links {
+    background-color: darkkhaki;
+    font-family: Verdana, sans-serif;
+    list-style-type: none;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 300px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.links li {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
