@@ -1,3 +1,7 @@
+body{
+   background-color: hsla(200, 60%, 98%, 0.863);
+;
+}
 #recipe-card-template{
     display: none;
 }
@@ -8,12 +12,10 @@
 }
 .recipe-card{
     width: 750px;
-    border: 3px solid black;
+    border: 2px solid black;
     padding: 15px;
     border-radius: 10px;
-    background: linear-gradient(to bottom right, hsla(246, 78%, 70%, 0.822), 20%,hsla(201, 33%, 84%, 0.822));
-
-   /* background-color: hsla(201, 33%, 84%, 0.822);*/
+    background: linear-gradient(to bottom right, hsla(246, 78%, 70%, 0.822), 5%,hsla(200, 60%, 98%, 0.863));
 }
 .headline{
     display: flex;
@@ -42,4 +44,8 @@
 .short-description p span {
     font-weight: normal;
     font-size: 18px;
+}
+
+a {
+    color: hsla(209, 100%, 45%, 0.966);
 }

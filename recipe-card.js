@@ -57,7 +57,7 @@ function createNewRecipeCard(recipe, node){
     author.textContent = recipe.author;
     date.textContent = recipe.published;
     description.textContent = recipe.description;
-    fullArticle.textContent = recipe.fullArticle;
+    fullArticle.href = recipe.fullArticle;
 
     return newCard;
 
